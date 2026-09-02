@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <!-- Circular White Background ensuring complete visibility -->
+  <rect width="600" height="600" fill="#FFFFFF" />
+
+  <!-- Arc for NATIONAL HEALTH MISSION -->
+  <!-- Center is 300, 360, radius is ~240 -->
+  <path id="topTextArc" d="M 60,390 A 240,240 0 0,1 540,390" fill="none" />
+
+  <!-- Bold Circular Text around the dome -->
+  <text font-family="'Arial Black', 'Helvetica Black', 'Impact', sans-serif" font-weight="900" font-size="44" fill="#231F20" letter-spacing="3">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      NATIONAL HEALTH MISSION
+    </textPath>
+  </text>
+
+  <!-- Red Semicircular Solid Dome -->
+  <path d="M 115,440 A 185,185 0 0,1 485,440 Z" fill="#E31E24" />
+
+  <!-- Shining Sun with crisp sharp rays -->
+  <g id="sun" transform="translate(300, 240)">
+    <!-- Sun Core -->
+    <circle cx="0" cy="0" r="22" fill="#FFEB00" stroke="#FFD700" stroke-width="1.5" />
+    
+    <!-- 16 Sharp Triangular Sun Rays matching official emblem -->
+    <polygon points="0,-24 -5,-44 0,-48 5,-44" fill="#FFEB00" />
+    <polygon points="0,24 -5,44 0,48 5,44" fill="#FFEB00" />
+    <polygon points="-24,0 -44,-5 -48,0 -44,5" fill="#FFEB00" />
+    <polygon points="24,0 44,-5 48,0 44,5" fill="#FFEB00" />
+
+    <polygon points="-17,-17 -34,-27 -36,-36 -27,-34" fill="#FFEB00" />
+    <polygon points="17,-17 27,-34 36,-36 34,-27" fill="#FFEB00" />
+    <polygon points="-17,17 -34,27 -36,36 -27,34" fill="#FFEB00" />
+    <polygon points="17,17 27,34 36,36 34,27" fill="#FFEB00" />
+
+    <polygon points="-9,-22 -14,-43 -9,-47 -4,-43" fill="#FFEB00" />
+    <polygon points="9,-22 4,-43 9,-47 14,-43" fill="#FFEB00" />
+    <polygon points="-9,22 -14,43 -9,47 -4,43" fill="#FFEB00" />
+    <polygon points="9,22 4,43 9,47 14,43" fill="#FFEB00" />
+
+    <polygon points="-22,-9 -43,-14 -47,-9 -43,-4" fill="#FFEB00" />
+    <polygon points="-22,9 -43,4 -47,9 -43,14" fill="#FFEB00" />
+    <polygon points="22,-9 43,-14 47,-9 43,-4" fill="#FFEB00" />
+    <polygon points="22,9 43,4 47,9 43,14" fill="#FFEB00" />
+  </g>
+
+  <!-- Happy Healthy Family Figures (Pure White #FFFFFF) -->
+  <g fill="#FFFFFF">
+    <!-- 1. Father Figure (Left) -->
+    <!-- Head -->
+    <circle cx="230" cy="255" r="21" />
+    <!-- Neck / Shoulders / Body -->
+    <path d="M 212,284 L 248,284 L 251,354 L 209,354 Z" rx="3" />
+    <!-- Left Arm sloping down -->
+    <path d="M 212,286 L 194,316 L 174,334" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Right Arm holding child's hand -->
+    <path d="M 248,286 L 268,316 L 286,358" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Legs -->
+    <rect x="209" y="362" width="14" height="66" rx="7" />
+    <rect x="237" y="362" width="14" height="66" rx="7" />
+
+    <!-- 2. Mother Figure (Right) -->
+    <!-- Head -->
+    <circle cx="380" cy="270" r="20" />
+    <!-- Dress / Body (Classic Saree/Dress triangular profile) -->
+    <path d="M 380,296 L 358,342 L 348,394 L 412,394 L 402,342 Z" />
+    <!-- Left Arm holding child's hand -->
+    <path d="M 368,300 L 348,330 L 330,364" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Right Arm -->
+    <path d="M 392,300 L 412,332 L 428,342" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Legs -->
+    <rect x="357" y="399" width="15" height="34" rx="7" />
+    <rect x="388" y="399" width="15" height="34" rx="7" />
+
+    <!-- 3. Child Figure (Center) -->
+    <!-- Head -->
+    <circle cx="308" cy="336" r="12" />
+    <!-- Child Triangular Frock -->
+    <path d="M 308,352 L 295,376 L 284,408 L 332,408 L 321,376 Z" />
+    <!-- Left Hand held up by Father -->
+    <path d="M 299,355 L 288,350 L 277,330" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Right Hand held up by Mother -->
+    <path d="M 317,355 L 328,350 L 339,336" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Legs -->
+    <rect x="296" y="413" width="9" height="19" rx="4.5" />
+    <rect x="313" y="413" width="9" height="19" rx="4.5" />
+  </g>
+
+  <!-- Bottom Hindi Official Typography: राष्ट्रीय स्वास्थ्य मिशन -->
+  <text x="300" y="482" text-anchor="middle" font-family="'Noto Sans Devanagari', 'Mangal', 'Arial Unicode MS', sans-serif" font-weight="800" font-size="34" fill="#231F20" letter-spacing="0.5">
+    राष्ट्रीय स्वास्थ्य मिशन
+  </text>
+</svg>

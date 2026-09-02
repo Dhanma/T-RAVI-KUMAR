@@ -1,0 +1,6 @@
+{
+  "name": "HMIS Q1 Report Dashboard & Print Portal",
+  "description": "Health Management Information System (HMIS) 1st Quarter Performance Dashboard and Official Printable Report for April to June 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
